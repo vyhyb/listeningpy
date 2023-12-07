@@ -1,0 +1,11 @@
+*
+!.gitignore
+!listeningpy
+!listeningpy/*
+!docs
+!docs/*
+!README.md
+!LICENSE.md
+!setup.py
+!examples
+!examples/*
