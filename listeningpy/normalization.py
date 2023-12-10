@@ -229,7 +229,7 @@ def zwicker_loudness_normalize(
         n += 1
     logging.info(f" After {n}th normalization: N={loud_lvl:.1f}")
     audio *= ratio_loud
-    headroom = 1 - abs(audio).max()
+    headroom = 1/abs(audio).max()
     headroom_db = 20*np.log10(headroom)
     if abs(audio).max() > 1:
         logging.warning("Audio signal clipped after normalization.")
