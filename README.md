@@ -2,7 +2,7 @@
 
 This library provides a way to design listening tests in Python.
 
-The library contains several functions for audio processing, such as concolution or different types of normalization, including loudness normalization.
+The library contains several functions for audio processing, such as convolution or different types of normalization, including loudness normalization using [mosqito](https://github.com/Eomys/MoSQITo) library.  
 
 Only ABX test protocol is currently supported, but more protocols will be added in the future.
 
@@ -105,7 +105,7 @@ Github Copilot was used to generate parts of the documentation and code.
 
 - [David Jun](https://www.fce.vutbr.cz/o-fakulte/lide/david-jun-12801/)
   
-  PhD student at [Brno University of Technology](https://www.vutbr.cz/en/)
+  PhD student at [Brno University of Technology](https://www.vutbr.cz/en/) and [KU Leuven](https://www.kuleuven.be/english/)
 
 ## Contributing
 
