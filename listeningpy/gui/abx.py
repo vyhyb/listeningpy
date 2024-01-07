@@ -69,7 +69,7 @@ class Abx(ctk.CTkFrame):
         self.progress_label_var.set(f"{self.progress.get()+1}/{self.last_idx+1}")
 
         self.question = ctk.CTkLabel(self, 
-            text="Which stimuli is the same as reference?")
+            text="Which stimulus is the same as reference?")
         self.question.grid(row=0, column=0, columnspan=3)
 
         self.label_set = ctk.CTkLabel(self, 
