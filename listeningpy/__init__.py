@@ -11,10 +11,6 @@ Only ABX test protocol is currently supported, but more protocols will be added 
 
 It is currently not possible to install this library using `pip` or `conda`, please use the latest [released package](https://github.com/vyhyb/listeningpy/releases) instead and install using [`pip` locally](https://packaging.python.org/en/latest/tutorials/installing-packages/).
 
-## Installation
-
-It is currently not possible to install this library using `pip` or `conda`, please use the latest [released package](https://github.com/vyhyb/listeningpy/releases) instead and install using [`pip` locally](https://packaging.python.org/en/latest/tutorials/installing-packages/).
-
 ## Documentation
 
 API documentation can be found [here](https://vyhyb.github.io/listeningpy/).

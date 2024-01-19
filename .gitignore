@@ -14,3 +14,4 @@ liseteningpy/*/__pycache__/
 !setup.py
 !examples
 !examples/*
+!generate_documentation.py
