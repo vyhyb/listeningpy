@@ -1,0 +1,12 @@
+sounddevice
+soundfile
+pyloudnorm
+mosqito
+numpy
+pandas
+scipy
+customtkinter
+
+[dev]
+pytest
+twine

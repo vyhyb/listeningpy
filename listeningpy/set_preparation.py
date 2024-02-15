@@ -222,7 +222,7 @@ def abx_combination_subset(
         audio_path_comb = concat([audio_path_comb, audio_path_comb_copy])
         
     audio_path_comb_inv = audio_path_comb.copy()
-    audio_path_comb_inv.loc[:, ['0', '1']] = audio_path_comb_inv.loc[:, ['0', '1']].values
+    audio_path_comb_inv.loc[:, ['1', '0']] = audio_path_comb_inv.loc[:, ['0', '1']].values
     audio_path_comb = concat([audio_path_comb, audio_path_comb_inv]).reset_index(drop=True)
     audio_path_comb = audio_path_comb.sort_values(by=['0'])
     logging.info("ABX combinations returned.")
